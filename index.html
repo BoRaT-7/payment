@@ -14,19 +14,15 @@
   <div class="mockup-phone-display">
     <div class="hero bg-base-200 min-h-screen">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <div class="text-center lg:text-left">
-      <h1 class="text-3xl font-bold">Login now!</h1>
-      
-    </div>
     <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
       <div class="card-body">
         <fieldset class="fieldset">
-          <label class="label font-semibold">Phone Number</label>
-          <input type="email" class="input" placeholder="Enter Your number" />
+          <label  class="label font-semibold">Phone Number</label>
+          <input id="phonenumber" type="email" class="input" placeholder="Enter Your number" />
           <label class="label font-semibold">Pin</label>
-          <input type="password" class="input" placeholder="Enter your pin" />
+          <input id="loginpin" type="password" class="input" placeholder="Enter your pin" />
           <div><a class="link link-hover">Forgot password?</a></div>
-          <button class="btn btn-neutral mt-4">Login</button>
+          <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
         </fieldset>
       </div>
     </div>
@@ -36,6 +32,6 @@
 
 </div>
     </main>
-    
+    <script src="js/login.js"></script>
 </body>
 </html>
