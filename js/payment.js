@@ -1,3 +1,7 @@
 document.getElementById('addmoney').addEventListener('click',function(event){
-    console.log('when button click money add');
+    event.preventDefault();
+
+    const addMoneyammount = document.getElementById('input-amount').value;
+console.log(addMoneyammount);
 })
+
